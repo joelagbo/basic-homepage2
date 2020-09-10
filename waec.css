@@ -1,0 +1,126 @@
+* {
+    margin-top: 10px;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.everything { width: 80%;
+margin: 0 auto;}
+
+.first-p { background-color: #428BCA;
+color:white;
+width: 100%;
+margin: -13px auto;
+font-size:15px;
+border-top-right-radius: 5px;
+border-top-left-radius: 5px;
+text-align: center;
+position: relative;
+font-weight: 700;}
+
+.second-p {background-color: lightpink;
+color:saddlebrown;
+width: 100%;
+font-size:15px;
+text-align: center;
+position: relative;
+    font-weight: 700;
+    margin: -13px auto;
+    padding: 0
+}
+
+.click {
+    text-align: center;
+    margin: 30px auto;
+    text-decoration:none;
+}
+.link { text-decoration: none;
+color: dodgerblue}
+.thumbnail {
+    width: 70% ;
+    height: ;
+}
+
+.word {
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 15px;
+    color: #428BCA
+}
+.flex-container, .flex-container2 { display:grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-items: start;
+    margin: auto;
+    padding: auto;
+}
+.box-1 { grid-column: ;
+ }
+
+
+.box-2 { grid-column: ;
+ }
+
+.box-3 { flex-grow: ;
+ }
+
+.box-4 { flex-grow: ;
+ }
+
+.box-5 { flex-grow: ;
+ }
+footer { text-align: center;
+background-color: grey}@media screen and (max-width: 768px) {
+    
+    .everything { width: 100%;
+    margin: 0 auto;
+    border: 0;}
+    .flex-container, .flex-container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-element {
+        display: flex;
+        border: 1px solid #eeeeee;
+    }
+    
+    .everything { height: 80%}
+} 
+button {
+    width: 80%;
+    height: 30px;
+    color: white;
+    background-color: #428BCA;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: helvetica, 'helvetica neue';
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .everything { width: 100%;
+    margin: 0 auto;
+    border: 0;}
+    .flex-container, .flex-container2 {
+        display: flex;
+        flex-direction: column;
+    }
+    .box-element {
+        display: flex;
+    }
+   
+    .everything { height: 80%}
+    button { float:right;
+    width: 40%;
+    }
+} 
+
+img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
